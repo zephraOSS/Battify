@@ -22,7 +22,7 @@ Automation: [Battify Advanced](https://www.icloud.com/shortcuts/008d999af19a49dc
 2. Open the shortcut and edit the IP address to your PC's IP address (the app prints it to the console on startup)
 3. Save the shortcut
 
-#### Optional
+## Optional
 
 To create an automation that triggers at 80% battery, follow these steps:
 
