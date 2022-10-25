@@ -1,0 +1,19 @@
+{
+    "appId": "com.zephra.battify",
+    "productName": "Battify",
+    "artifactName": "Battify.${ext}",
+    "copyright": "Copyright © 2022 zephra",
+    "asar": true,
+    "directories": {
+        "app": "dist",
+        "buildResources": "src/assets",
+        "output": "app/win"
+    },
+    "win": {
+        "target": "nsis",
+        "icon": "src/assets/win32.ico",
+        "artifactName": "Battify-Installer.exe",
+        "publisherName": "zephra",
+        "publish": ["github"]
+    }
+}

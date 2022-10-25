@@ -4,7 +4,7 @@ Battery + Notify = **Battify**
 
 _Funny. I know._
 
-Siri Shortcut: [Battify Public](https://www.icloud.com/shortcuts/7c809b9c633448edb3ad1c173dea28e7)\
+Siri Shortcut: [Battify Public](https://www.icloud.com/shortcuts/08ef4ec88ec9474496e08132b8ee8307)\
 Automation: [Battify Advanced](https://www.icloud.com/shortcuts/008d999af19a49dc884316d76be8e93d)
 
 ## First steps
@@ -18,7 +18,7 @@ Automation: [Battify Advanced](https://www.icloud.com/shortcuts/008d999af19a49dc
 
 ### On your iPhone/iPad
 
-1. Add the Siri Shortcut to your shortcuts ([Battify Public](https://www.icloud.com/shortcuts/7c809b9c633448edb3ad1c173dea28e7))
+1. Add the Siri Shortcut to your shortcuts ([Battify Public](https://www.icloud.com/shortcuts/08ef4ec88ec9474496e08132b8ee8307))
 2. Open the shortcut and edit the IP address to your PC's IP address (the app prints it to the console on startup)
 3. Save the shortcut
 
