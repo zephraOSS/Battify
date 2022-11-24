@@ -1,9 +1,9 @@
 {
     "name": "battify",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "scripts": {
         "start": "npm run copy && npm run build && electron ./dist/",
-        "copy": "copyfiles src/assets/icon.png package.json dist/",
+        "copy": "copyfiles package.json dist/ && copyfiles -u 1 src/assets/** dist/",
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "tsc",
         "build:win": "npm run build && npm run copy && electron-builder --config builder/win.json"
