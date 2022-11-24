@@ -31,6 +31,9 @@ export class ServerManager {
 
             log.info("[RECEIVED]", device + " |", model + " |", battery + "%");
 
+            if (!device || !model || !battery)
+                return log.warn("[RECEIVED]", "Invalid request");
+
             sendNotification(
                 `${device} Battery`,
                 `Your ${model}'s battery is at ${battery}%`
