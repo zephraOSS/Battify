@@ -1,18 +1,19 @@
-import http from "http";
-
 import { sendNotification } from "./notifications";
 import { networkInterfaces } from "os";
 import { config } from "./config";
+
+import http from "http";
 
 import * as log from "electron-log";
 
 export class ServerManager {
     private server: http.Server;
-    private readonly ip: string;
+
+    static ip: string;
 
     constructor() {
         this.server = http.createServer();
-        this.ip = Object.values(networkInterfaces())
+        ServerManager.ip = Object.values(networkInterfaces())
             .flat()
             .find((i) => i?.family === "IPv4" && !i?.internal)?.address;
 
@@ -21,7 +22,7 @@ export class ServerManager {
                 "[SERVER]",
                 `Server is running on port ${config.get("port")}`
             );
-            log.info("[SERVER]", "Siri Shortcut IP:", this.ip);
+            log.info("[SERVER]", "Siri Shortcut IP:", ServerManager.ip);
         });
 
         this.server.on("request", (req, res) => {
