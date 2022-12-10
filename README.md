@@ -4,8 +4,8 @@ Battery + Notify = **Battify**
 
 _Funny. I know._
 
-Siri Shortcut: [Battify Public](https://www.icloud.com/shortcuts/60e44a286de0409dbcb487ab23ff44d4)\
-Automation: [Battify Advanced](https://www.icloud.com/shortcuts/c37eaa4268294e0ab5592144746183ad)
+Siri Shortcut: [Battify Public](https://www.icloud.com/shortcuts/60e44a286de0409dbcb487ab23ff44d4) - Last updated: 12/10/2022 \
+Automation: [Battify Advanced](https://www.icloud.com/shortcuts/c37eaa4268294e0ab5592144746183ad) - Last updated: 12/10/2022
 
 ## First steps
 
